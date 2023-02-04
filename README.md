@@ -10,6 +10,8 @@ The length of `x` can be changed on the command-line using `-l/--length`.
 - `-o/--outdir`: Path to directory where the new FASTA file and TSV file will be saved.
 - `-l/--length`: Length of new FASTA headers to create. Default: `18`
 
+Example: `python3 randomize-fasta-headers.py -i datadir/bacillus.fa -o outdir/ -l 23`
+
 ## Dependencies
 
 - python=3.11.0 
