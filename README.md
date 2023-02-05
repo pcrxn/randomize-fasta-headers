@@ -1,6 +1,6 @@
 # randomize-fasta-headers
 
-A Python script to randomize the FASTA header(s) of a FASTA or multi-FASTA file.
+A Python script to randomize the sequence header(s) of a FASTA or multi-FASTA file.
 The headers of the old FASTA file will be replaced by random strings of length `x`, where the new string contains `x/3` numbers, and the remainder uppercase letters.
 The length of `x` can be changed on the command-line using `-l/--length`.
 A TSV file containing the old and new headers will be created in the output directory.
