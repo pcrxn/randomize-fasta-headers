@@ -114,7 +114,7 @@ def parse_and_write(fasta_file, outdir, length):
     for record in SeqIO.parse(fasta_file, "fasta"):
 
         new_header = randomheader(length)
-        old_header = record.id
+        old_header = record.description
         record.id = new_header
         record.description = ""
 
